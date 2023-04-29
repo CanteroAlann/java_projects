@@ -1,0 +1,104 @@
+{
+  "dossiers": [
+    {
+      "nombre": "Carmen Sandiego",
+      "sexo": "Sexo del sospechos@: Femenino",
+      "ocupacion": "Antigua gente del Servicio de Espionaje de Mónaco",
+      "hobby": "Hobby del sospechos@: Tenis",
+      "colorDelPelo": "Color de pelo del sospechos@: Castaño",
+      "coche": "Vehículo del sospechos@: Descapotable",
+      "señasParticulares": "Seña particular del sospechos@: Anillo",
+      "otros": "Le encanta la enchilada"
+    },
+    {
+      "nombre": "Merey LaRoc",
+      "sexo": "Sexo del sospechos@: Femenino",
+      "ocupacion": "Bailarina profesional de aerobic",
+      "hobby": "Hobby del sospechos@: Musica",
+      "colorDelPelo": "Color de pelo del sospechos@: Castaño",
+      "coche": "Vehículo del sospechos@: Deportivo",
+      "señasParticulares": "Seña particular del sospechos@: Joyas",
+      "otros": "Le encanta la comida picante"
+    },
+    {
+      "nombre": "Dazzle Annie Nonker",
+      "sexo": "Sexo del sospechos@: Femenino",
+      "ocupacion": "Propietaria de un bar de yogurt",
+      "hobby": "Hobby del sospechos@: Alpinismo",
+      "colorDelPelo": "Color de pelo del sospechos@: Rubio",
+      "coche": "Vehículo del sospechos@: Limusina",
+      "señasParticulares": "Seña particular del sospechos@: Tatuaje",
+      "otros": "Le encanta comer marisco"
+    },
+    {
+      "nombre": "Lady Agatha Wayland",
+      "sexo": "Sexo del sospechos@: Femenino",
+      "ocupacion": "Lectora de novelas de misterio",
+      "hobby": "Hobby del sospechos@: Paracaidismo",
+      "colorDelPelo": "Color de pelo del sospechos@: Rojizo",
+      "coche": "Vehículo del sospechos@: Deportivo",
+      "señasParticulares": "Seña particular del sospechos@: Anillo",
+      "otros": "Atraviesa los campos en busca de restaurantes mejicanos"
+    },
+    {
+      "nombre": "Len 'Red' Bulk",
+      "sexo": "Sexo del sospechos@: Masculino",
+      "ocupacion": "Ex-jugador de hockey profesional",
+      "hobby": "Hobby del sospechos@: Natacion",
+      "colorDelPelo": "Color de pelo del sospechos@: Rojizo",
+      "coche": "Vehículo del sospechos@: Descapotable",
+      "señasParticulares": "Seña particular del sospechos@: Tatuaje",
+      "otros": "Le encanta el marisco"
+    },
+    {
+      "nombre": "Scar Graynolt",
+      "sexo": "Sexo del sospechos@: Masculino",
+      "ocupacion": "Guitarrista folk",
+      "hobby": "Hobby del sospechos@: Croquet",
+      "colorDelPelo": "Color de pelo del sospechos@: Morocho",
+      "coche": "Vehículo del sospechos@: Limusina",
+      "señasParticulares": "Seña particular del sospechos@: Joyas",
+      "otros": "Tiene un fiel servidor sherpa de 2'15 metros"
+    },
+    {
+      "nombre": "Nick Brunch",
+      "sexo": "Sexo del sospechos@: Masculino",
+      "ocupacion": "Ex-detective privado",
+      "hobby": "Hobby del sospechos@: Alpinismo",
+      "colorDelPelo": "Color de pelo del sospechos@: Morocho",
+      "coche": "Vehículo del sospechos@: Moto",
+      "señasParticulares": "Seña particular del sospechos@: Cicatriz",
+      "otros": "Le apasiona la cocina mejicana; lleva un anillo de Dick Tracy"
+    },
+    {
+      "nombre": "Fast Eddie B.",
+      "sexo": "Sexo del sospechos@: Masculino",
+      "ocupacion": "Jugador mundial de croquet",
+      "hobby": "Hobby del sospechos@: Croquet",
+      "colorDelPelo": "Color de pelo del sospechos@: Rubio",
+      "coche": "Vehículo del sospechos@: Descapotable",
+      "señasParticulares": "Seña particular del sospechos@: Tatuaje",
+      "otros": "Siempre va impecablemente vestido y peinado; le encanta la comida mejicana"
+    },
+    {
+      "nombre": "Ihor Ihorovitch",
+      "sexo": "Sexo del sospechos@: Masculino",
+      "ocupacion": "Aspirante al trono zarista",
+      "hobby": "Hobby del sospechos@: Tenis",
+      "colorDelPelo": "Color de pelo del sospechos@: Rubio",
+      "coche": "Vehículo del sospechos@: Limusina",
+      "señasParticulares": "Seña particular del sospechos@: Anillo",
+      "otros": "Le encanta comer langosta y ver dibujos animados"
+    },
+    {
+      "nombre": "Katherine Drib",
+      "sexo": "Sexo del sospechos@: Femenino",
+      "ocupacion": "Piloto de carreras de motociclismo",
+      "hobby": "Hobby del sospechos@: Alpinismo",
+      "colorDelPelo": "Color de pelo del sospechos@: Castaño",
+      "coche": "Vehículo del sospechos@: Moto",
+      "señasParticulares": "Seña particular del sospechos@: Cicatriz",
+      "otros": "Cocina muy bien el marisco; es una fanatica de la salud y del aerobic"
+    }
+  ]
+} 

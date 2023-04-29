@@ -1,0 +1,28 @@
+@startuml
+!theme reddress-darkblue
+autonumber
+skinparam style strictuml
+skinparam BackGroundColor lavender
+skinparam RoundCorner 7
+skinparam SequenceGroupFontColor black
+skinparam SequenceGroupBorderColor black
+skinparam SequenceGroupBorderThickness 0.5
+skinparam ArrowFontColor black
+skinparam ArrowColor black
+skinparam ActorFontColor black
+skinparam participantFontSize 12
+skinparam SequenceLifeLineBackGroundColor 2e2e2e
+
+TestCase -> "detective:Detective" as detective : visitarEdificio(nombreEdificio:String)
+detective -> "Montreal:Ciudad" as ciudad: visitarEdificio(nombreEdificio, tiempoRestante)
+ciudad -> "banco:Edificio" as edificio: serVisitado(siguienteCiudad)
+edificio -> "siguienteCiudad:Ciudad" as siguiente : pistaBanco() 
+siguiente -->  edificio : pista
+ciudad <-- edificio : pista
+
+ciudad -> "tiempoRestante:TiempoRestante" as tiempo : restarHoras(1)
+ciudad --> detective : pista
+
+detective --> TestCase : pista
+
+@enduml

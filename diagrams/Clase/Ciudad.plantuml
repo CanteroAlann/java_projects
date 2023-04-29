@@ -1,0 +1,29 @@
+@startuml
+
+!theme reddress-darkblue
+skinparam BackgroundColor lavender
+skinparam ArrowColor black
+skinparam ArrowThickness 1.0
+skinparam RoundCorner 7
+skinparam ClassAttributeFontColor FFFFFF
+skinparam ClassFontSize 12
+skinparam ArrowFontColor black
+
+Class Ciudad{
+
+    - visitasRealizadas : Integer
+    - nombreCiudad : String
+    
+    + visitarEdificio(edificio:Edificio, rangoDetective:Rango,tiempoRestante:TiempoRestante):Pista
+    - sumarVisita()
+    + pistaEconomia(rangoDetective:Rango)
+    + pistaBiblioteca(rangoDetective:Rango)
+    + pistaTransporte(rangoDetective:Rango)
+    + pistaBanco(rangoDetective:Rango)
+    + viajar(nuevaCiudad:Ciudad, tiempo:Tiempo, rango:Rango)
+    + recibirPolicia()
+    + recibirLadron(ladron:Ladron)
+
+}
+
+@enduml

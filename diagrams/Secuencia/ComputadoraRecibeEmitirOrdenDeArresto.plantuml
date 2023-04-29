@@ -1,0 +1,34 @@
+@startuml
+!theme reddress-darkblue
+autonumber
+skinparam style strictuml
+skinparam BackGroundColor lavender
+skinparam RoundCorner 7
+skinparam SequenceGroupFontColor black
+skinparam SequenceGroupBorderColor black
+skinparam SequenceGroupBorderThickness 0.5
+skinparam ArrowFontColor black
+skinparam ArrowColor black
+skinparam ActorFontColor black
+skinparam participantFontSize 12
+skinparam SequenceLifeLineBackGroundColor 2e2e2e
+
+TestCase -> "policia:Policia" as policia: emitirOrdenDeArresto(ladron:Ladron, computadora:Computadoraz)
+policia -> "tiempo:Tiempo" as tiempo: restarHoras(3)
+policia -> ":Computadora" as Computadora: emitirOrdenDeArresto(ladron:Ladron)
+Computadora -> Computadora: buscarSospechosos()
+Computadora --> Computadora: listaSospechosos:Lista
+loop para cada posible sospechoso 
+Computadora -> "sospechoso: Ladron" as ladron: esIgualA(unLadron)
+ladron --> Computadora: true 
+note right
+    solamente un ladron devuelve true
+end note
+end
+create "orden:OrdenDeArresto" as orden
+Computadora -> orden : new(unLadron)
+orden --> Computadora : orden
+Computadora --> policia :orden
+policia --> TestCase: orden
+
+@enduml
