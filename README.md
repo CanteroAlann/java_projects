@@ -2,7 +2,7 @@
 
 # TP2 Algoritmos 3: Algo-thief
 
-Trabajo Práctico número 2 de la materia Algoritmos y Programación III de FIUBA
+Trabajo Práctico número 2 de la materia Algoritmos y Programación III de FIUBA , el mismo consiste en implementar un video juego con sus respectiva interfaz grafica. 
 
 ## Grupo 10
 
